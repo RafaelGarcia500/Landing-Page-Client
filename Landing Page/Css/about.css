@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{  
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+
+}
+
+body{
+    background-color: #efecea;}
+
+a{
+    text-decoration: none;
+    color: #111111;
+
+}
+a:hover{
+    color: inherit;
+}
+.sections{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.5em ;
+    padding-bottom: 1.4em;
+    padding-right: 7em;
+    gap:90px;
+    list-style-type: none;
+    font-size: 17px;
+    
+
+}
+.about {
+    border-top: #434343 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2em;
+    background-color:#efecea;
+    color: #111111;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5em;
+    
+    
+    
+}
+.abt-sbt{
+    text-align: start;
+    padding-left:100px ;
+    font-size: 120%;
+    
+}
+.abt-txt-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #efecea;
+    padding: 80px 80px;
+    color: #111111;
+    text-align: start;
+}
+.abt-cont{
+    display: flex;
+    border-top: 1px solid #e0e5e9;
+}
+.fter-container{
+    background-color: #434343;
+    height: 100%;
+    margin-top: 10em;
+    padding: 3em;
+    
+}
+
+.fter-list{
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-underline-offset: 1em;
+    list-style-type: none;
+    gap: 8.5em;
+
+}
